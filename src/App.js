@@ -8,8 +8,8 @@ import MarketABI from './abis/Market.json'
 import MyNFTABI from './abis/MyNFT.json'
 
 //  合约地址
-const MYNFT_ADDRESS = "0x92d0c08F012eE1FA0590B79DF8F9575AF2feb48B";
-const MARKET_ADDRESS = "0x16F9504A1944a81BEF8c5859865c9B3c96F88B88";
+const MYNFT_ADDRESS = "0x01f245f17c16fDF482e0593a5C2083874d475892";
+const MARKET_ADDRESS = "0x71EE52928151e1F18CbAeAA74C65aF5d219785d3";
 
 function App() {
   const [account, setAccount] = useState(null);
