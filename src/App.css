@@ -1,0 +1,97 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
+
+.header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.connect-section,
+.account-info,
+.mint-section,
+.sell-section,
+.nft-gallery-section,
+.sale-section {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.input-group input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #357ab8;
+}
+
+.btn-secondary {
+  background-color: #e94e77;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #c43c5b;
+}
+
+.nft-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.nft-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.nft-card .nft-image {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.highlight {
+  color: #4a90e2;
+  font-weight: bold;
+}
+
+.sale-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sale-list li {
+  margin-bottom: 10px;
+}
